@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  font-family: 'Neucha';
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  margin: 10px;
+}
+.row{
+margin-top: 50px;
+}
+p{
+margin: 20px;
+}
+
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+		  <img src="poop.jpg">
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left: 55%">
+		  <ul class="navbar-nav">
+			
+			
+		    <li class="nav-item">
+			  <a class="nav-link" href="#">Find a Owner</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Help
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Pedia.html">Doggypedia</a>
+          <a class="dropdown-item" href="doggypedia.html">Member Stories</a>
+		  <a class="dropdown-item" href="FAQs.html">FAQs</a>
+          <a class="dropdown-item" href="conntact.html">Contact</a>
+        </div>
+			 </li>
+			 <li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Alice
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="dropdown.html">Activity</a>
+          <a class="dropdown-item" href="profile.html">My Profile</a>
+		  <a class="dropdown-item" href="mymessage.html">My Message</a>
+          <a class="dropdown-item" href="setting.html">Account Setting</a>
+		  <a class="dropdown-item" href="index.html">Sign out</a>
+        </div>
+			 </li>
+		  </ul>
+		  
+		</div>
+	  </div>
+	</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-4">
+<form action="#">
+  <img id="jonh"src="https://d25ynr0tqe9wpe.cloudfront.net/assets/missing/avatar-borrower-square-a7cad320ae4bbd984152ebf3a500bda2250ac75b86e4df092f777f06298144a9.svg" alt="John" style="width:300px; height: 300px;">
+  <input type='file' onchange="readURL(this);"/>
+  </form>
+  </div>
+  <div class="col-sm-8">
+  <h3>Alice <span style="margin-left: 50%; font-size: 13">
+  <button  style="border-radius: 3px; background-color: white"><img src="edit.png">Edit</button></span></h3>
+  <hr>
+  <img src="address.png"> 612 High Street London EC17 3CN
+  <hr>
+  <p>I love dogs</p>
+  <hr>
+  <span style="margin-right: 20px;">Looking for <span style="background-color: pink;color: white; border-radius: 3px;">Excercise</span></span>
+  <span>Has <span style="background-color: blue; border-radius: 3px;color: white">A garden/outdoor space</span></span>
+  <br><br>
+  <span style="margin-right: 20px;">Experience <span style="background-color: red; border-radius: 3px;color: white">Owned/looked after a dog</span></span>
+  <span>Available on <span style="background-color: green; border-radius: 3px;color: white">Weekdays - daytime</span></span>
+  <p>ASK A FRIEND TO RECOMMEND YOU AS A TRUSTED BORROWER</p>
+  <input type="text" placeholder="Your friend's email" style="height: 40px;">
+  <input class="btn btn-success" type="button" value="Ask for a recomendation">
+  </div>
+ </div>
+ <hr style="width: 75%">
+ <p>DO YOU OWN A DOG?</p>
+ <input type="button" value="Create an owner profile">
+ </div>
+ <div class="container-fluid">
+  <div class="row" style="background-color: green;margin-top: 250px">
+    <a href="https://dribbble.com/"><i class="fa fa-dribbble" style="margin-left: 600px"></i></a> 
+    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>  
+    <a href="https://vn.linkedin.com/"><i class="fa fa-linkedin"></i></a>  
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> 
+	<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+	<a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+  </div>
+</div>
+<script>
+	  function readURL(input) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+            reader.onload = function (e) {
+              $('#jonh')
+              .attr('src', e.target.result);
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+      }
+	</script>
+</body>
+</html>

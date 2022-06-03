@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+*{
+	font-family: 'Neucha';
+}
+.signup{
+	width: 400px;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 30px;
+	text-align: center;
+	
+}
+input{
+	width: 200px;
+	height: 40px;
+	margin: 5px;
+	border: 1px solid black;
+	padding-right: 20px;
+	border-color: black;
+	border-radius: 30px;
+	margin-left: 10px;
+	
+}
+select{
+	border-color: black;
+	margin: 15px;
+}
+input[type=radio] {
+    width: 15px;
+    height: 15px;
+}
+
+label {
+	float: left;
+	color: black;
+}
+.password {
+	margin-bottom:5px;
+}
+h1 {
+	color: black;
+}
+.container {
+	width: 400px;
+	text-align: center;
+	background-color: #E6E6FA;
+	margin-top: 50px;
+}
+h2 {
+	color: black;
+}
+.form-control {
+	color: black;
+	border-radius: 30px;
+}
+body{font-weight:700;background-color: #E6E6FA;}
+input[type=text]{border-radius:30px}
+input[type=email]{border-radius:30px}
+input[type=date]{border-radius:30px}
+input[type=password]{border-radius:30px}

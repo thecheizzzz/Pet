@@ -1,0 +1,259 @@
+
+<HTML>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <HEAD>
+    <TITLE></TITLE>
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+  *{
+	font-family: 'Neucha';
+	font-size: 25;
+  }
+
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 500px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0} 
+      to {top:0; opacity:1}
+    }
+
+    @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-header {
+      padding: 4px 16px;
+      background-color: #5cb85c;
+      color: white;
+    }
+
+    .modal-body {padding: 2px 16px;}
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+	
+	.button1 {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+	.up2 ul li{
+		display: inline-block;
+		margin: 5px;
+	}
+	.img1{
+	width: 300px;
+	height: 200px;
+	}
+	p{
+	margin-top: 5px;
+	}
+	.col{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid grey;
+	background-color: white;
+	border-radius: 5px;
+	}
+	h4 a{
+	color: #01DF3A;
+	}
+		.navbar-nav a:hover {
+  border-bottom: 2px solid lightgreen;
+}
+
+	.navbar-nav a.active {
+  border-bottom: 2px solid lightgreen;
+}
+a{
+margin-left: 10px;}
+
+	</style>
+  </HEAD>
+  <BODY>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+		  <img src="poop.jpg">
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left: 55%">
+		  <ul class="navbar-nav">
+			
+			
+		    <li class="nav-item">
+			  <a class="nav-link" href="#">Find a Borrower</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Help
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Pedia.html">Doggypedia</a>
+          <a class="dropdown-item" href="doggypedia.html">Member Stories</a>
+		  <a class="dropdown-item" href="FAQs.html">FAQs</a>
+          <a class="dropdown-item" href="conntact.html">Contact</a>
+        </div>
+			 </li>
+			 <li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Alice
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="">Activities</a>
+          <a class="dropdown-item" href="profile1.html">My Profile</a>
+		  <a class="dropdown-item" href="mymessage.html">My Message</a>
+          <a class="dropdown-item" href="setting.html">Account Setting</a>
+		  <a class="dropdown-item" href="index.html">Sign out</a>
+        </div>
+			 </li>
+		  </ul>
+		  
+		</div>
+	  </div>
+	</nav>
+		<div class="container" style="margin-top: 20px">
+		<h2>Dog Owner Advice</h2>
+	<div class="row">
+	
+        <div class="col">
+				<img class="img1" src="data:image/jpeg;base64,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" alt="tip for managing dog laundry">	
+		</div>
+        <div class="col">
+				<img class="img1" src="https://www.americanhumane.org/app/uploads/2020/04/Easter-1024x1024.png" alt="tips for your dog this Easter">
+					
+		</div>
+        <div class="col">
+				<img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvG7MKLzLxCi7OxasgJU6StTqctH4MZjieA&usqp=CAU" alt="Tips for your 'Welcome Woof'">	
+		</div>
+		</div>
+	 <div class="row" style="margin-top: 5px">
+	 
+	 </div>
+	 <div class="row"  style="margin-top: 5px">
+	 <div class="col">
+	 <h5  style="color: #00CC00">3 tips for managing your's dog's laundry</h5>
+	 <p id="demo"></p>
+	 <p onclick="myFunction()"><b>Wash their bedding frequently</b></p>
+	 <p id="demo1"></p>
+	 <p onclick="myFunction1()"><b>Handle their collar with care</b></p>
+	 <p id="demo2"></p>
+	 <p onclick="myFunction2()"><b>Sanitise their toys</b></p>
+	 </div>
+	 <div class="col">
+	 <h5  style="color: #00CC00">5 tips for your dog this Easter</h5>
+	 <p id="demo3"></p>
+	 <p onclick="myFunction3()"><b>Chocolate is toxic to dogs</b></p>
+	 <p id="demo4"></p>
+	<p onclick="myFunction4()"><b>Hot Cross Buns</b></p>
+	<p id="demo5"></p>
+	 <p onclick="myFunction5()"><b>Out and about</b></p>
+	 <p id="demo6"></p>
+	<p onclick="myFunction6()"><b>Spring clean your dog!</b></p>
+	<p id="demo7"></p>
+	<p onclick="myFunction7()"><b>Creepy crawlies</b></p>
+	 </div>
+	 
+	 <div class="col">
+	 <h5 style="color: #00CC00">3 Tips for your 'Welcome Woof'</h5>
+	 <p id="demo8"></p>
+	 <p onclick="myFunction8()"><b>Be prepared</b></p>
+	 <p id="demo9"></p>
+	 <p onclick="myFunction9()"><b>Let the borrower know if..</b></P>
+	  <p id="demo10"></p>
+	 <p onclick="myFunction10()"><b>Ask questions like...</b></P>
+	 </div>
+	 </div>
+	 <script>
+	function myFunction() {
+    document.getElementById("demo").innerHTML = "Your dog spends lots of time sleeping or relaxing on their bed, and they won’t stop just because they’re muddy or a bit whiffy. To help keep things clean and hygienic, your furry friend should have two sets of bedding, which you alternate between each week while one is being washed. This will help to minimise the amount of bacteria, allergens and odours that build up in the fibres. Before bundling these into your washing machine, it’ll be a good idea to vacuum as much hair off the bedding as possible, as this can build up a backlog of fur inside the machine that can transfer to your other loads of washing. To contain any leftover hairs or mess, you should use a pet laundry bag to wash their bedding in. If the weather is fair, hang the bedding on the washing line or leave it outside to get dry. Otherwise, it’s perfectly fine to put most types of bedding in the dryer. But, do check the care instructions before doing so as this might differ for certain materials.";
+   }
+   function myFunction1() {
+   document.getElementById("demo1").innerHTML = "To keep your dog’s collar in good condition for longer, I wouldn’t recommend putting it into the washing machine as the spin can be too rough. Instead, you should try a gentler approach by hand washing them. This won’t take too long and all you’ll need is some dog shampoo and hot water.";
+   }
+	function myFunction2() {
+   document.getElementById("demo2").innerHTML = "Plastic, rubber and rope toys: Some people like to put these in the dishwasher with a few tablespoons of white vinegar for a truly sanitising wash. However, if you prefer not to, there is always the option of washing these in a bowl with hot water, vinegar and a hard-bristled brush. Leave these to air-dry before giving them back to your furry friend.";
+   }
+   function myFunction3() {
+	document.getElementById("demo3").innerHTML = "Please remember to keep your Easter treats out of reach from your dog. If you suspect your pet has eaten any milk or dark chocolate, then contact a vet with the type of chocolate, the amount you think they have consumed and the weight of your dog. They can then advise if veterinary attention is required. The sooner you get advice on this, the safer it is for your dog.";
+	}
+	function myFunction4() {
+   document.getElementById("demo4").innerHTML = "Hot Cross Buns are also a sure-fire way to end up at the vets! They contain raisins and sultanas, which can have a toxic effect on your dog’s kidneys. If there is a chance your pet has eaten anything containing these dried fruits, then please contact your vet as soon as possible.";
+   }
+   function myFunction5() {
+   document.getElementById("demo5").innerHTML = "When out and about in the garden at this time of year, be on the lookout for any spring bulbs which may have been dug up. If your pet eats these, they can cause serious tummy upsets and may require a hospital stay.";
+   }
+   function myFunction6() {
+   document.getElementById("demo6").innerHTML = "Use the warmer weather to give your pet a good groom - brush out all of the old winter coat, give them a bath or treat them with a visit to the groomers. Look out for any itchy bits as this is the time of year that many skin allergies crop up.";
+   }
+   function myFunction7() {
+   document.getElementById("demo7").innerHTML = "As the temperature heats up outside, the chances of your pet encountering parasites also increases. Make sure your dog has effective flea and tick prevention on board and be sure to regularly inspect their skin and coat, especially after long walks. If you suspect your pet has any parasites or you would like to know more about the different treatments available, then give your vet a call to discuss it further.";
+   }
+   function myFunction8() {
+   document.getElementById("demo8").innerHTML = "Get ready for a normal walk. Bring your dog's lead, treats, poo bags and a toy. Don't force it. Let your dog take the lead in deciding if the borrower is a good match for them.";
+   }
+   function myFunction9() {
+   document.getElementById("demo9").innerHTML = "Have you owned or looked after a dog before? Why did you join Poop? Do you have experience with this breed of dog?";
+   }
+   function myFunction10() {
+   document.getElementById("demo10").innerHTML = " Your dog deos'n get along with other dogs. Your dog has any dislike. Has previous history.";
+   }
+   </script>
+  </BODY>
+</HTML>

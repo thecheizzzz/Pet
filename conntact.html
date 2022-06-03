@@ -1,0 +1,89 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+  *{
+	font-family: 'Neucha';
+	font-size: 25;
+  }
+.header{
+background-color: #00CC66;
+text-align: center;
+color: white;
+font-size: 26;
+padding-bottom: 30px;
+padding-top: 15px;
+background-color: #00CC66;
+color: white;
+}
+.button{
+border-radius: 5px;
+border: none;
+background-color: #00CC66;
+color: white;
+}
+  .required:before {
+    content:" *";
+    color: red;
+  }
+ input{
+ width: 600px;
+ height: 30px;
+ border-radius: 4px;
+ }
+
+</style>
+</head>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="poop.jpg" alt="" width="65" height="40">
+    </a>
+	<a class="nav" href="FAQs.html" style="color: white; margin-right: 70%">Help Centre</a>
+	<a href="conntact.html" class="button" role="button" aria-pressed="true">conntact us</a>
+  </div>
+</nav>
+
+	<div class="container-fluid">
+	<div class="header">
+	Submit a request
+	</div>
+	<div class="row">
+	<div class="col-sm-3">
+	</div>
+	<div class="col-sm-6">
+	<div class="required">
+    <label>Your email address:</label><br>
+    <input type="text"><br><br>
+	</div>
+	<div class="required">
+	<label>What is your question about?</label><br><br>
+	</div>
+	<div class="required">
+	<label>Subject</label><br>
+	<input type="text"><br><br>
+	</div>
+	<div class="required">
+	<label>Description</label><br>
+	<input type="textarea" style="height: 80px; width: 600px;"><br>
+	<p>Please enter the details of your request. A member of our support staff will respond as soon as possible.</p>
+	</div>
+	<div class="required">
+	<label>Attachments</label><br>
+	<input type="textarea" style="height: 80px; width: 600px;"placeholder="Add file or drop file here"><br>
+	</div>
+	</div>
+	<div class="col-sm-3">
+	</div>
+	</div>
+	<div class="row">
+	<input type="button" value="Submit" style="margin-left: 43%;margin-top: 30px;color: white; background-color: #00CC66; width: 80px; border: none">
+	</div>
+	</div>
+<body>
+</body>
+</html>
